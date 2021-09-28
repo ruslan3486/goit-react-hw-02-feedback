@@ -1,0 +1,16 @@
+.button_name {
+  height: 50px;
+  font-size: 25px;
+  background-color: rgb(103, 163, 163);
+  color: rgb(49, 13, 95);
+  transition: all 250ms;
+}
+
+.button_name:hover {
+  background-color: rgb(202, 23, 119);
+  transform: scale(1.2);
+}
+
+.button_name:not(:last-child) {
+  margin-right: 20px;
+}
